@@ -86,11 +86,11 @@ for (let i = 0; i <= 15; i++) {
 
 // Define an array of objects representing the students and their marks
 const students = [
-    { name: 'John', marks: 80 },
-    { name: 'Jane', marks: 65 },
-    { name: 'Alice', marks: 90 },
-    { name: 'Bob', marks: 55 },
-    { name: 'Mike', marks: 75 }
+    { name: 'Muhammad', marks: 80 },
+    { name: 'Ahmed', marks: 65 },
+    { name: 'AbuBaker', marks: 90 },
+    { name: 'Umar', marks: 55 },
+    { name: 'Usman', marks: 75 }
   ];
   
   // Define a function to compute the average marks of the students
