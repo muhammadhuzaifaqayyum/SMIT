@@ -2,7 +2,6 @@
 // Answer no 01
 // ---------------------------------------------------------------------------------------
 
-
 let number1 = prompt("Enter the first number:");
 let number2 = prompt("Enter the second number:");
 
@@ -17,7 +16,6 @@ if (number1 > number2) {
 } else {
   console.log("The two numbers are equal.");
 }
-
 
 // ---------------------------------------------------------------------------------------
 // Answer no 02
@@ -34,11 +32,9 @@ if (number > 0) {
   alert("The number is zero.");
 }
 
-
 // ---------------------------------------------------------------------------------------
 // Answer no 03
 // ---------------------------------------------------------------------------------------
-
 
 let number1 = prompt("Enter the first number:");
 let number2 = prompt("Enter the second number:");
@@ -72,21 +68,17 @@ if (number5 > largestNumber) {
 
 console.log("The largest number is: " + largestNumber);
 
-
 // ---------------------------------------------------------------------------------------
 // Answer no 04
 // ---------------------------------------------------------------------------------------
 
-
 for (let i = 0; i <= 15; i++) {
-    if (i % 2 === 0) {
-      console.log(i + " is even");
-    } else {
-      console.log(i + " is odd");
-    }
+  if (i % 2 === 0) {
+    console.log(i + " is even");
+  } else {
+    console.log(i + " is odd");
   }
-
-  
+}
 
 // ---------------------------------------------------------------------------------------
 // Answer no 05
