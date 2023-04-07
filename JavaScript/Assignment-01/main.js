@@ -83,3 +83,51 @@ for (let i = 0; i <= 15; i++) {
 // ---------------------------------------------------------------------------------------
 // Answer no 05
 // ---------------------------------------------------------------------------------------
+
+// Define an array of objects representing the students and their marks
+const students = [
+    { name: 'John', marks: 80 },
+    { name: 'Jane', marks: 65 },
+    { name: 'Alice', marks: 90 },
+    { name: 'Bob', marks: 55 },
+    { name: 'Mike', marks: 75 }
+  ];
+  
+  // Define a function to compute the average marks of the students
+  function computeAverageMarks(students) {
+    let sum = 0;
+    for (let i = 0; i < students.length; i++) {
+      sum += students[i].marks;
+    }
+    return sum / students.length;
+  }
+  
+  // Compute the average marks of the students
+  const averageMarks = computeAverageMarks(students);
+  
+  // Define a function to determine the grade based on the average marks
+  function determineGrade(averageMarks) {
+    if (averageMarks < 60) {
+      return 'F';
+    } else if (averageMarks < 70) {
+      return 'D';
+    } else if (averageMarks < 80) {
+      return 'C';
+    } else if (averageMarks < 90) {
+      return 'B';
+    } else {
+      return 'A';
+    }
+  }
+  
+  // Determine the grade based on the average marks
+  const grade = determineGrade(averageMarks);
+  
+  // Output the results
+  console.log(`The average marks of the students is ${averageMarks}.`);
+  console.log(`The corresponding grade is ${grade}.`);
+  
+// ---------------------------------------------------------------------------------------
+// Answer no 06
+// ---------------------------------------------------------------------------------------
+
